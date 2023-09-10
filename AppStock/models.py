@@ -5,7 +5,7 @@ from django.db import models
 
 class Producto(models.Model):
 
-    peso = models.IntegerField()
+    peso = models.FloatField()
     nombre = models.CharField(max_length=60)
 
 class Proveedor(models.Model):
