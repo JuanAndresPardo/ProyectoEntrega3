@@ -1,0 +1,2 @@
+Para probar el ingreso de nuevos productos, proveedores o transportistas, ingresando a través de cada uno de los botones, se tiene la oportunidad de elegri si se quiere ingresar o buscar, en este caso ingresar. Luego se completan todos los datos y se utiliza el botón para que se guarden en la base de datos.
+La búsqueda debería de funcioanr de igual forma pero no lo hace. No logré que el sistema funcione. No me doy cuenta donde está el error. Es decir, cuando ejecuto la vista a través del botón, me queda un template solo con el título de lo que se pretende buscar.
