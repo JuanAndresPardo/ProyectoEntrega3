@@ -1,0 +1,13 @@
+{% extends "padre.html" %}
+{% load static %}
+
+{% block contenidoQueCambia %}
+    <h1> Resultado de Búsqueda de Producto</h1>
+    <ul>
+        {% for producto in Producto %}
+            <li>{{ Producto.producto }} - Peso: {{ Producto.peso }}</li>
+        {% endfor %}
+    </ul>
+    
+
+{% endblock %}

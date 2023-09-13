@@ -1,0 +1,12 @@
+{% extends "padre.html" %}
+{% load static %}
+
+{% block contenidoQueCambia %}
+    <h1> Agregar Nuevo Transportista</h1>
+    <form action="{% url 'transportistaFormulario' %}" method="post"> {% csrf_token %}
+       
+        {{miFormulario3.as_p}}
+
+        <button type="submit"> Guardar </button>
+    </form>
+{% endblock %}

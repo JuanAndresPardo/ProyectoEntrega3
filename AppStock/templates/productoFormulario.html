@@ -1,0 +1,13 @@
+{% extends "padre.html" %}
+{% load static %}
+
+{% block contenidoQueCambia %}
+    <h1> Agregar Nuevo Producto</h1>
+    <form action="{% url 'productoFormulario' %}" method="post"> {% csrf_token %}
+        
+        {{miFormulario.as_p}}
+
+        <button type="submit"> Guardar </button>
+    </form>
+
+{% endblock %}
