@@ -4,8 +4,13 @@
 {% block contenidoQueCambia %}
     <h1> Resultado de Búsqueda de Producto</h1>
     <ul>
-        {% for producto in Producto %}
-            <li>{{ Producto.producto }} - Peso: {{ Producto.peso }}</li>
+        {% for nombre in producto %}
+            <li>{{ nombre.nombre }} - Peso: {{ nombre.peso }} kg</li>
+
+        {% empty %}
+
+        No hay productos disponibles
+
         {% endfor %}
     </ul>
     

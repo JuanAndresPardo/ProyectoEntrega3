@@ -87,7 +87,7 @@ def busuqedaProducto (req: HttpRequest):
 
     if req.GET['nombre']:
         nombre = req.GET['nombre']
-        producto = Producto.objects.get(nombre=nombre)
+        producto = Producto.objects.filter(nombre__icontains=nombre)
         return render(req, "resBusProd.html", {"producto": producto})
     else:
         return HttpResponse(f"Debe buscar por nombre")
