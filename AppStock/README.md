@@ -1,2 +1,4 @@
-Para probar el ingreso de nuevos productos, proveedores o transportistas, ingresando a través de cada uno de los botones, se tiene la oportunidad de elegri si se quiere ingresar o buscar, en este caso ingresar. Luego se completan todos los datos y se utiliza el botón para que se guarden en la base de datos.
-La búsqueda debería de funcioanr de igual forma pero no lo hace. No logré que el sistema funcione. No me doy cuenta donde está el error. Es decir, cuando ejecuto la vista a través del botón, me queda un template solo con el título de lo que se pretende buscar.
+Los modelos creados son: Productos - Proveedores - Transportistas
+En cualquiera de los nombrados anteriormente existen formalrios de ingreso según cada caso.
+Para probar el ingreso de nuevos productos, proveedores o transportistas, ingresando a través de cada uno de los botones en la parte superior, se tiene la oportunidad de elegir si se quiere ingresar o buscar, en este caso ingresar. Luego se completan todos los datos (Nombre y Peso del producto) y se utiliza el botón para que se guarden en la base de datos.
+Para buscar un producto en la base de datos se debe probar exclusivamente en la sección de productos. Se debe presionar el botón de buscar, y escribir un nombre de un porducto.
